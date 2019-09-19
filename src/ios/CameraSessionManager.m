@@ -418,7 +418,7 @@
     [exposureModes addObject:@"auto"];
   };
   if ([videoDevice isExposureModeSupported:2]) {
-    [exposureModes addObject:@"continuous"];
+    [exposureModes addObject:@"cotinuous"];
   };
   if ([videoDevice isExposureModeSupported:3]) {
     [exposureModes addObject:@"custom"];
